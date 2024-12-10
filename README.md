@@ -20,7 +20,7 @@ Our strategy for addressing the detection of seminal input features in C program
 
 ## Prerequisites
 
-- LLVM version (`./scripts/ubuntu-llvm.sh`)
+- LLVM version 16(`./scripts/ubuntu-llvm.sh`)
 - CMake installed (`sudo apt install cmake -y`)
 - A C++ compiler (e.g., g++, clang)
 
