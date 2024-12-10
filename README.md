@@ -20,13 +20,7 @@ Our strategy for addressing the detection of seminal input features in C program
 
 ## Prerequisites
 
-> **Important:**  
-> It is recommended to use a **clean** VCL VM for this setup to avoid potential issues stemming from LLVM version discrepancies or installation methods.
-
-> **Tip:**  
-> If you are using Ubuntu, you can automatically install the required components by running `make prereq` (you may need to press <kbd>Enter</kbd> to accept the LLVM license agreement). For further details, consult the [`Makefile`](./Makefile).
-
-- LLVM version 16.0 or later installed (`./scripts/ubuntu-llvm.sh`)
+- LLVM version (`./scripts/ubuntu-llvm.sh`)
 - CMake installed (`sudo apt install cmake -y`)
 - A C++ compiler (e.g., g++, clang)
 
