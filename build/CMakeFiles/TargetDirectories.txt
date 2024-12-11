@@ -1,0 +1,7 @@
+/home/zshiraz/CSC512_part2_submission/build/CMakeFiles/intrinsics_gen.dir
+/home/zshiraz/CSC512_part2_submission/build/CMakeFiles/omp_gen.dir
+/home/zshiraz/CSC512_part2_submission/build/CMakeFiles/acc_gen.dir
+/home/zshiraz/CSC512_part2_submission/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/zshiraz/CSC512_part2_submission/build/CMakeFiles/DefUseAnalysisPass.dir
+/home/zshiraz/CSC512_part2_submission/build/CMakeFiles/edit_cache.dir
+/home/zshiraz/CSC512_part2_submission/build/CMakeFiles/rebuild_cache.dir

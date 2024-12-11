@@ -1,0 +1,12 @@
+[
+    {
+        "function": "main",
+        "influential_variables": [
+            {
+                "line": 6,
+                "name": "name",
+                "type": "IO"
+            }
+        ]
+    }
+]

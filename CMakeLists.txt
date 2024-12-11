@@ -10,7 +10,7 @@ list(APPEND CMAKE_PREFIX_PATH "${LT_LLVM_INSTALL_DIR}/lib/cmake/llvm/")
 # Find the LLVM package
 find_package(LLVM CONFIG REQUIRED)
 
-if("${LLVM_VERSION_MAJOR}" VERSION_LESS 16)
+if("${LLVM_VERSION_MAJOR}" VERSION_LESS 14)
     message(FATAL_ERROR "Found LLVM ${LLVM_VERSION_MAJOR}, but need LLVM 16 or above")
 endif()
 
