@@ -56,7 +56,7 @@ namespace {
             // Check for uninitialized variables
             for (const auto &pair : varMap) {
                 const std::string &varName = pair.first;
-                if (initializedVars.find(F.getValueSymbolTable().lookup(varName)) == initializedVars.end()) {
+                if (initializedVars.find(F.getValueSymbolTable()->lookup(varName)) == initializedVars.end()) {
                     errs() << "Warning: Variable " << varName << " may be uninitialized.\n";
                 }
             }
